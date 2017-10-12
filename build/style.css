@@ -1,0 +1,117 @@
+.city__photo {
+  height: 100vh;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .city__photo_ny {
+    background-image: url(assets/ny.jpg); }
+  .city__photo_london {
+    background-image: url(assets/london.jpg); }
+  .city__photo_delhi {
+    background-image: url(assets/delhi.jpg); }
+  .city__photo_istambul {
+    background-image: url(assets/istambul.jpg); }
+  .city__photo_seul {
+    background-image: url(assets/seul.jpg); }
+  .city__photo_sanpaulo {
+    background-image: url(assets/sanpaulo.jpg); }
+  .city__photo_tokyo {
+    background-image: url(assets/tokyo.jpg); }
+
+.city__title {
+  font-size: 3rem;
+  font-weight: normal;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 14px; }
+
+.city__description {
+  font-size: 1.5rem;
+  padding: 10px 12px; }
+
+body,
+div,
+h1,
+a {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Lato; }
+
+@-webkit-keyframes slidein {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes slidein {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .content__item {
+    min-width: 33.33333%;
+    height: 100vh;
+    background-position: center;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: min-width 2s;
+    transition: min-width 2s; }
+    .content__item:hover .content__title {
+      -webkit-animation: slidein 1500ms;
+              animation: slidein 1500ms; }
+    .content__item_opened {
+      min-width: 100%; }
+    .content__item_closed {
+      min-width: 0%;
+      overflow: hidden; }
+    .content__item_ny {
+      background-image: url(assets/ny.jpg); }
+    .content__item_london {
+      background-image: url(assets/london.jpg); }
+    .content__item_delhi {
+      background-image: url(assets/delhi.jpg); }
+    .content__item_istambul {
+      background-image: url(assets/istambul.jpg); }
+    .content__item_seul {
+      background-image: url(assets/seul.jpg); }
+    .content__item_sanpaulo {
+      background-image: url(assets/sanpaulo.jpg); }
+    .content__item_tokyo {
+      background-image: url(assets/tokyo.jpg); }
+  .content__title {
+    font-size: 3rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 14px; }
